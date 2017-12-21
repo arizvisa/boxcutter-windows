@@ -2,6 +2,9 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
+  config.winrm.username="user"
+  config.winrm.password="user"
+
   config.vm.define "vagrant-win2012r2-datacenter-ssh"
   config.vm.box = "win2012r2-datacenter-ssh"
 

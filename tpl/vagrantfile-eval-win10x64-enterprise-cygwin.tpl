@@ -2,6 +2,9 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
+  config.winrm.username="user"
+  config.winrm.password="user"
+
   config.vm.define "vagrant-eval-win10x64-enterprise-cygwin"
   config.vm.box = "eval-win10x64-enterprise-cygwin"
 
