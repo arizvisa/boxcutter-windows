@@ -172,7 +172,7 @@
     "cm_version": "",
     "cpus": "2",
     "memory": "2048",
-    "disk_size": "40960",
+    "disk_size": "102400",
     "hw_version": "7",
     "iso_url": "iso/en_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677791.iso",
     "iso_checksum": "708e0338d4e2f094dfeb860347c84a6ed9e91d0c",
