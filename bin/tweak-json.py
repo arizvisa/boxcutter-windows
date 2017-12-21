@@ -138,8 +138,8 @@ for i, a in enumerate(json_data['builders']):
 
     if winrm:
       a['communicator'] = 'winrm'
-      a['winrm_username'] = 'user'
-      a['winrm_password'] = 'user'
+      a['winrm_username'] = 'root'
+      a['winrm_password'] = 'default root password'
       a['winrm_timeout'] = timeout_seconds + 's'
 
     if not tools_upload_flavor:
