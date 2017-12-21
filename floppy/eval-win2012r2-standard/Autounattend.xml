@@ -65,12 +65,12 @@
                 </AdministratorPassword>
                 <LocalAccounts>
                     <LocalAccount wcm:action="add">
-                        <Description>Vagrant User</Description>
-                        <DisplayName>vagrant</DisplayName>
+                        <Description>Default User</Description>
+                        <DisplayName>user</DisplayName>
                         <Group>Administrators</Group>
-                        <Name>vagrant</Name>
+                        <Name>user</Name>
                         <Password>
-                            <Value>vagrant</Value>
+                            <Value>user</Value>
                             <PlainText>true</PlainText>
                         </Password>
                     </LocalAccount>
@@ -78,9 +78,9 @@
             </UserAccounts>
             <AutoLogon>
                 <Enabled>true</Enabled>
-                <Username>vagrant</Username>
+                <Username>user</Username>
                 <Password>
-                    <Value>vagrant</Value>
+                    <Value>user</Value>
                     <PlainText>true</PlainText>
                 </Password>
             </AutoLogon>
