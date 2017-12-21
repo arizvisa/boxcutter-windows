@@ -123,7 +123,7 @@
                         </Password>
                         <Description>Default User</Description>
                         <DisplayName>user</DisplayName>
-                        <Group>Administrators</Group>
+                        <Group>Users</Group>
                         <Name>user</Name>
                     </LocalAccount>
                 </LocalAccounts>
