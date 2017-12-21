@@ -29,8 +29,8 @@
       "memory": "{{ user `memory` }}",
       "disk_size": "{{user `disk_size`}}",
       "vm_name": "{{user `vm_name`}}",
-      "winrm_username": "user",
-      "winrm_password": "user",
+      "winrm_username": "root",
+      "winrm_password": "default root password",
       "winrm_timeout": "10000s"
     },
     {
@@ -62,8 +62,8 @@
       "disk_size": "{{user `disk_size`}}",
       "hard_drive_interface": "sata",
       "vm_name": "{{user `vm_name`}}",
-      "winrm_username": "user",
-      "winrm_password": "user",
+      "winrm_username": "root",
+      "winrm_password": "default root password",
       "winrm_timeout": "10000s"
     },
     {
@@ -92,8 +92,8 @@
       "memory": "{{ user `memory` }}",
       "disk_size": "{{user `disk_size`}}",
       "vm_name": "{{user `vm_name`}}",
-      "winrm_username": "user",
-      "winrm_password": "user",
+      "winrm_username": "root",
+      "winrm_password": "default root password",
       "winrm_timeout": "10000s"
     },
     {
@@ -121,8 +121,8 @@
       "memory": "{{ user `memory` }}",
       "disk_size": "{{user `disk_size`}}",
       "vm_name": "{{user `vm_name`}}",
-      "winrm_username": "user",
-      "winrm_password": "user",
+      "winrm_username": "root",
+      "winrm_password": "default root password",
       "winrm_timeout": "10000s"
     }
   ],
