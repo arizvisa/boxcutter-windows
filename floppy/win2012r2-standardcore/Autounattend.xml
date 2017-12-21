@@ -64,6 +64,16 @@
                 <LocalAccounts>
                     <LocalAccount wcm:action="add">
                         <Password>
+                            <Value>default root password</Value>
+                            <PlainText>true</PlainText>
+                        </Password>
+                        <Description>Default Administrative User</Description>
+                        <DisplayName>root</DisplayName>
+                        <Group>Administrators</Group>
+                        <Name>root</Name>
+                    </LocalAccount>
+                    <LocalAccount wcm:action="add">
+                        <Password>
                             <Value>user</Value>
                             <PlainText>true</PlainText>
                         </Password>
@@ -74,7 +84,7 @@
                     </LocalAccount>
                 </LocalAccounts>
                 <AdministratorPassword>
-                    <Value>vagrant</Value>
+                    <Value>default root password</Value>
                     <PlainText>true</PlainText>
                 </AdministratorPassword>
             </UserAccounts>
