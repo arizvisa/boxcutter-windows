@@ -84,9 +84,9 @@
             </UserAccounts>
             <AutoLogon>
                 <Enabled>true</Enabled>
-                <Username>user</Username>
+                <Username>root</Username>
                 <Password>
-                    <Value>user</Value>
+                    <Value>default root password</Value>
                     <PlainText>true</PlainText>
                 </Password>
             </AutoLogon>
