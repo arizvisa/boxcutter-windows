@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.winrm.username="user"
-  config.winrm.password="user"
+  config.winrm.username="root"
+  config.winrm.password="default root password"
 
   config.vm.define "vagrant-eval-win2016-standard-cygwin"
   config.vm.box = "eval-win2016-standard-cygwin"
