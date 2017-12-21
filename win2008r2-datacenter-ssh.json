@@ -28,8 +28,8 @@
       "memory": "{{ user `memory` }}",
       "disk_size": "{{user `disk_size`}}",
       "vm_name": "{{user `vm_name`}}",
-      "ssh_username": "vagrant",
-      "ssh_password": "vagrant",
+      "ssh_username": "user",
+      "ssh_password": "user",
       "ssh_timeout": "10000s"
     },
     {
@@ -61,8 +61,8 @@
       "disk_size": "{{user `disk_size`}}",
       "hard_drive_interface": "sata",
       "vm_name": "{{user `vm_name`}}",
-      "ssh_username": "vagrant",
-      "ssh_password": "vagrant",
+      "ssh_username": "user",
+      "ssh_password": "user",
       "ssh_timeout": "10000s"
     },
     {
@@ -90,8 +90,8 @@
       "memory": "{{ user `memory` }}",
       "disk_size": "{{user `disk_size`}}",
       "vm_name": "{{user `vm_name`}}",
-      "ssh_username": "vagrant",
-      "ssh_password": "vagrant",
+      "ssh_username": "user",
+      "ssh_password": "user",
       "ssh_timeout": "10000s"
     },
     {
@@ -118,8 +118,8 @@
       "memory": "{{ user `memory` }}",
       "disk_size": "{{user `disk_size`}}",
       "vm_name": "{{user `vm_name`}}",
-      "ssh_username": "vagrant",
-      "ssh_password": "vagrant",
+      "ssh_username": "user",
+      "ssh_password": "user",
       "ssh_timeout": "10000s"
     }
   ],

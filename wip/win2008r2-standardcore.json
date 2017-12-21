@@ -38,8 +38,8 @@
       "memory": "{{ user `memory` }}",
       "disk_size": "{{ user `disk_size` }}",
       "vm_name": "win2008r2-standardcore",
-      "ssh_username": "vagrant",
-      "ssh_password": "vagrant",
+      "ssh_username": "user",
+      "ssh_password": "user",
       "ssh_timeout": "10000s"
     },
     {
@@ -66,8 +66,8 @@
       "memory": "{{ user `memory` }}",
       "disk_size": "{{ user `disk_size` }}",
       "vm_name": "win2008r2-standardcore",
-      "ssh_username": "vagrant",
-      "ssh_password": "vagrant",
+      "ssh_username": "user",
+      "ssh_password": "user",
       "ssh_timeout": "10000s"
     }
   ],
