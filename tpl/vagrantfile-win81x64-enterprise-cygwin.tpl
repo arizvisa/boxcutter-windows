@@ -14,14 +14,14 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 22, host: 2222, id: "ssh", auto_correct:true
 
   config.vm.provider :virtualbox do |v, override|
-    v.gui = true
+    v.gui = false
     v.customize ["setextradata", "global", "GUI/MaxGuestResolution", "any"]
     v.customize ["setextradata", :id, "CustomVideoMode1", "1024x768x32"]
   end
 
   ["vmware_fusion", "vmware_workstation"].each do |provider| 
     config.vm.provider provider do |v, override|
-      v.gui = true
+      v.gui = false
       v.vmx["ethernet0.virtualDev"] = "vmxnet3"
       v.vmx["RemoteDisplay.vnc.enabled"] = "false"
       v.vmx["RemoteDisplay.vnc.port"] = "5900"
