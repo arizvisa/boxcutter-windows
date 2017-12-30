@@ -77,7 +77,7 @@
                     <LocalAccount wcm:action="add">
                         <Description>Default User</Description>
                         <DisplayName>user</DisplayName>
-                        <Group>Users</Group>
+                        <Group>Users;Remote Desktop Users</Group>
                         <Name>user</Name>
                         <Password>
                             <Value>user</Value>

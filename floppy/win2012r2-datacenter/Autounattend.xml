@@ -77,7 +77,7 @@
                         </Password>
                         <Description>Default User</Description>
                         <DisplayName>user</DisplayName>
-                        <Group>Users</Group>
+                        <Group>Users;Remote Desktop Users</Group>
                         <Name>user</Name>
                     </LocalAccount>
                 </LocalAccounts>
