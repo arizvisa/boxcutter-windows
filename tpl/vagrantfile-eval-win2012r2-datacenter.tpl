@@ -2,6 +2,9 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
+  config.winrm.username="root"
+  config.winrm.password="default root password"
+
   config.vm.define "vagrant-eval-win2012r2-datacenter"
   config.vm.box = "eval-win2012r2-datacenter"
 

@@ -60,17 +60,27 @@
         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <UserAccounts>
                 <AdministratorPassword>
-                    <Value>vagrant</Value>
+                    <Value>default root password</Value>
                     <PlainText>true</PlainText>
                 </AdministratorPassword>
                 <LocalAccounts>
                     <LocalAccount wcm:action="add">
-                        <Description>Vagrant User</Description>
-                        <DisplayName>vagrant</DisplayName>
+                        <Description>Default Administrative User</Description>
+                        <DisplayName>root</DisplayName>
                         <Group>Administrators</Group>
-                        <Name>vagrant</Name>
+                        <Name>root</Name>
                         <Password>
-                            <Value>vagrant</Value>
+                            <Value>default root password</Value>
+                            <PlainText>true</PlainText>
+                        </Password>
+                    </LocalAccount>
+                    <LocalAccount wcm:action="add">
+                        <Description>Default User</Description>
+                        <DisplayName>user</DisplayName>
+                        <Group>Users;Remote Desktop Users</Group>
+                        <Name>user</Name>
+                        <Password>
+                            <Value>user</Value>
                             <PlainText>true</PlainText>
                         </Password>
                     </LocalAccount>
@@ -78,9 +88,9 @@
             </UserAccounts>
             <AutoLogon>
                 <Enabled>true</Enabled>
-                <Username>vagrant</Username>
+                <Username>root</Username>
                 <Password>
-                    <Value>vagrant</Value>
+                    <Value>default root password</Value>
                     <PlainText>true</PlainText>
                 </Password>
             </AutoLogon>

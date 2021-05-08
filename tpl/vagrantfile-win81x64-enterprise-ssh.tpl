@@ -2,6 +2,9 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
+  config.winrm.username="root"
+  config.winrm.password="default root password"
+
   config.vm.define "vagrant-win81x64-enterprise-ssh"
   config.vm.box = "win81x64-enterprise-ssh"
 

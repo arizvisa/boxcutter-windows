@@ -2,6 +2,9 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
+  config.winrm.username="root"
+  config.winrm.password="default root password"
+
   config.vm.define "vagrant-win2008r2-standard-cygwin"
   config.vm.box = "win2008r2-standard-cygwin"
 

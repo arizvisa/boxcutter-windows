@@ -61,21 +61,31 @@
                 <LocalAccounts>
                     <LocalAccount wcm:action="add">
                         <Password>
-                            <Value>vagrant</Value>
+                            <Value>default root password</Value>
                             <PlainText>true</PlainText>
                         </Password>
-                        <Description>Vagrant User</Description>
-                        <DisplayName>vagrant</DisplayName>
+                        <Description>Default Administrative User</Description>
+                        <DisplayName>root</DisplayName>
                         <Group>Administrators</Group>
-                        <Name>vagrant</Name>
+                        <Name>root</Name>
+                    </LocalAccount>
+                    <LocalAccount wcm:action="add">
+                        <Password>
+                            <Value>user</Value>
+                            <PlainText>true</PlainText>
+                        </Password>
+                        <Description>Default User</Description>
+                        <DisplayName>user</DisplayName>
+                        <Group>Users;Remote Desktop Users</Group>
+                        <Name>user</Name>
                     </LocalAccount>
                 </LocalAccounts>
             </UserAccounts>
             <AutoLogon>
                 <Enabled>true</Enabled>
-                <Username>vagrant</Username>
+                <Username>root</Username>
                 <Password>
-                    <Value>vagrant</Value>
+                    <Value>default root password</Value>
                     <PlainText>true</PlainText>
                 </Password>
             </AutoLogon>
