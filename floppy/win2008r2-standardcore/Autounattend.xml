@@ -32,7 +32,7 @@
                     <CreatePartitions>
                         <CreatePartition wcm:action="add">
                             <Order>1</Order>
-                            <Size>10000</Size>
+                            <Size>101376</Size>
                             <Type>Primary</Type>
                         </CreatePartition>
                     </CreatePartitions>

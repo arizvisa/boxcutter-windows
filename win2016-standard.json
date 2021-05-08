@@ -181,7 +181,7 @@
     "cm_version": "",
     "cpus": "2",
     "memory": "2048",
-    "disk_size": "40960",
+    "disk_size": "102400",
     "hw_version": "7",
     "iso_url": "iso/en_windows_server_2016_x64_dvd_9718492.iso",
     "iso_checksum": "f185197af68fae4f0e06510a4579fc511ba27616",

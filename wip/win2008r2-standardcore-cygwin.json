@@ -2,7 +2,7 @@
   "variables": {
     "cpus": "1",
     "memory": "768",
-    "disk_size": "40960",
+    "disk_size": "102400",
     "guest_additions_url": "",
     "version": "0.1.0",
     "cm": "chef",

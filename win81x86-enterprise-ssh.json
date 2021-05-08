@@ -165,7 +165,7 @@
     "cm_version": "",
     "cpus": "2",
     "memory": "2048",
-    "disk_size": "40960",
+    "disk_size": "102400",
     "hw_version": "7",
     "iso_url": "iso/en_windows_8.1_enterprise_with_update_x86_dvd_4065185.iso",
     "iso_checksum": "fe43558b4708b4b786bc3286924813b0aad21106",

@@ -176,7 +176,7 @@
     "cm_version": "",
     "cpus": "2",
     "memory": "2048",
-    "disk_size": "40960",
+    "disk_size": "102400",
     "hw_version": "7",
     "iso_url": "iso/en_windows_7_enterprise_with_sp1_x86_dvd_u_677710.iso",
     "iso_checksum": "4e0450ac73ab6f9f755eb422990cd9c7a1f3509c",
